@@ -90,7 +90,7 @@ def customer_can_afford_pet(customer, newPet)
   end
 end
 
-#20
+#optional
 def sell_pet_to_customer(petshop, pet, customer)
   if  pet != nil && customer_can_afford_pet(customer, pet)
     add_pet_to_customer(customer, pet)
